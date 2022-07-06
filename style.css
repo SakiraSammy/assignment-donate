@@ -1,0 +1,314 @@
+.sammy{
+    text-align: center;
+    color: white;
+}
+    
+body{
+    background-image: url('images/donation1.jpg');
+    background-repeat: no-repeat;
+    background-size:1538px 575px;
+}
+.first-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    border-radius: 5px;
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    }
+    .display{
+        padding-left: 45%;
+    }
+    .sammy-1{
+        text-align: center;
+        color: black;
+    }
+
+    #navbar {
+        justify-content: center;
+        padding: 20px 40px;
+       
+    }
+    .navbar-logo{
+        width: 30%;
+        text-align: center;
+        padding-top: 10px;
+      
+    }
+    .logo-span{
+        color: khaki;
+    }
+    
+    .navbar-logo h1{
+        text-align: center;
+        text-transform: capitalize;
+        color: aqua;
+        font-size: 36px;
+        font-weight: 700;
+    }
+    
+    .navbar-menu{
+       margin: 0 auto;
+        width: 70%;
+    }
+    
+    .navbar-menu ul{
+        display: flex;
+    }
+    
+    .navbar-menu ul li{
+       text-align: center;
+        list-style-type: none;
+        margin-left: 50px;
+        padding: 15px 35px;
+        background-color: hotpink;
+        border-radius: 5px;
+        cursor: pointer;
+    
+    }
+    
+    .navbar-menu ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    
+    .navbar-menu ul li:hover {
+        background-color: chartreuse;
+        transition: 0.4s ease;
+    }
+    .rising-fund{
+        text-align: center;
+    }
+    #counter{
+        margin: 40px;
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        display: flex;
+    
+    }
+    .count{
+        padding: 30px 50px;
+    }
+   .link-button{
+    color: tomato;
+   }
+   #blog {
+    margin: 50px 0;
+}
+
+.blog-head h2{
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 42px;
+    font-weight: 700;
+    color: #494444;
+}
+
+.blog-head p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 300px;
+    color: #494444;
+}
+
+.blog-post{
+    display: flex;
+    margin: 30px 20px;
+   
+   
+}
+
+.blog-part{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 28%;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.blog-part h2{
+    font-size: 24px;
+    font-weight: 700;
+    margin: 20px 0;
+    text-transform: capitalize;
+}
+.blog-part p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #494444 ;
+}
+
+.blog-part img{
+    border-radius: 15px;
+}
+h1{
+    font-size: 40px;
+}
+.orange-color{
+    color: orange;
+}
+.flexible-container{
+    display: flex;
+    margin-bottom: 100px;
+}
+.half-width{
+    width: 50%;
+    padding-left: 5%;
+}
+.half-width img{
+    width: 80%;
+}
+.button-1{
+    color: tomato;
+}
+.link-button{
+    text-decoration: none;
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    border-radius: 5px;
+}
+.top-banner{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+}
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+.experience-area
+{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.Experience-item{
+    width: 50%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+    
+}
+#full-stack-developer{
+    border-left: 7px solid tomato;
+}
+#baby-web-developer{
+    border-left: 7px solid blue;
+}
+footer p{
+    text-align: center;
+}
+#blog-something{
+    margin: 50px 0;
+}
+.blog-h p{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 300px;
+    color: #494444;
+}
+
+/* form  */
+
+#contact{
+    margin: 70px 0 50px;
+}
+
+#contact h2{
+    font-size: 42px;
+    font-weight: 700;
+    text-align: center;
+    color: #494444;
+    margin: 50px 0;
+    text-transform: capitalize;
+}
+
+input[type="text"], input[type="email"], input[type="number"] {
+    height: 50px;
+    border: 1px solid #d3d3d3;
+    background-color: transparent;
+    color: #3a3838;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 25%;
+    text-transform: none;
+    margin-left: 30px;
+}
+
+.form{
+    margin-left: 10px;
+}
+.form-1{
+    text-align: center;
+}
+.email{
+    color: navy;
+}
+
+.form textarea{
+    height: 170px;
+    border: 1px solid #d3d3d3;
+    background-color: transparent;
+    color: #3a3838;
+    padding-left: 28px;
+    padding-right: 28px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 90%;
+    text-transform: none;
+    margin: 20px 30px;
+}
+
+.form a{
+    text-decoration: none;
+    padding: 20px 100px;
+    background: linear-gradient(to left,orange,tomato);
+    color: white;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    margin: 20px 500px;
+    display: block;
+    text-transform: capitalize;
+    text-align: center;
+
+}
+
+#footer{
+    padding: 20px 0;
+    background-color:black;
+}
+
+#footer h2{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 48px;
+    font-weight: 700;
+    margin: 30px 0;
+    color: #ffffff;
+
+}
+#footer h2{
+  
+    color: rgb(228, 18, 88);
+    text-align: center;
+}
+
+#footer p{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+}
